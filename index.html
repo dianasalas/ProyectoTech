@@ -1,9 +1,57 @@
 <html>
 	<head>
 	<title>Practica 1</title>
+	<style>
+		form {
+		  padding-top: 80px;
+		}
+		header {
+		  background: rgba(0,0,0,0.9);
+		  width: 100%;
+		  position: center;
+		  z-index: 100;
+		}
+		nav {
+		  float: center; 
+		}
+		 
+		nav ul {
+		  list-style: none;
+		  overflow: hidden; 
+		}
+		 
+		nav ul li {
+		  float: left;
+		  font-family: Arial, sans-serif;
+		  font-size: 16px;
+		}
+		 
+		nav ul li a {
+		  display: block; 
+		  padding: 20px;
+		  color: #fff;
+		  text-decoration: none;
+		}
+		 
+		nav ul li:hover {
+		  background: pink;
+		}
+	</style>
 	</head>
 	<body>
-		<center>HOLA, ESTA ES MI PRIMER PRACTICA!<br><br></center>
+		<header>
+			<nav style="center">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="new.html">New User</a></li>
+					<li><a href="modify.html">Modify User</a></li>
+					<li><a href="delete.html">Delete User</a></li>
+				</ul>
+			</nav>
+		</header>
+		<br><br><br><br><br><br><br>
+		<center style="color:pink">HOLA, ESTA ES MI PRIMER PRACTICA!<br><br></center>
 		<form style="font-size:30px"><center>
 		User: <input type="text" name="user" size="30" placeholder="User"><br>
 
@@ -11,7 +59,7 @@
 		</center>
 		</form>
 		
-		<center><div style="font-size:20px">
+		<center><div style="font-size:20px; color:pink"><br><br><br>
 		By Diana Salas
 		</div></center>
 	</body>
